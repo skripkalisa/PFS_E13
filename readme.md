@@ -10,16 +10,26 @@
 
 Для запуска json-server надо:
 
-1. установить json-server командой
+1.  установить json-server командой
 
-   npm install -g json-server
+    npm install -g json-server
 
-2. Запускаем json-server:
+2.  Запускаем json-server:
 
-   yarn dev-json
+        yarn dev-json
 
-3. Открываем браузер и тестируем запрос:
+        или
 
-   http://localhost:3000
+        npm run dev-json
+
+3.  Открываем браузер и тестируем запрос:
+
+    http://localhost:3000
 
 на выходе должны получить наши данные в json формате.
+
+## Screenshots
+
+![Screenshot 1](./E13.png)
+
+![Screenshot 2](./E13_2.png)
